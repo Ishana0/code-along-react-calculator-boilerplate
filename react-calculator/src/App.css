@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+.input-box {
+    width: 250px;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+button {
+    background-color:cornflowerblue;
+}
+
+.btn {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    left: 40%;
+    width: 250px;
+    height: 250px;
+}
+
+.operations {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100px;
+    gap: 10px;
+}
+.text-btn {
+    display: grid;
+    gap: 10px;
+}
